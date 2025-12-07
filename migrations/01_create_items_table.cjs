@@ -10,7 +10,7 @@ exports.up = function (knex) {
     table.text('description').nullable();
     table.decimal('dealer_price', 10, 2).nullable();
     table.decimal('sales_price', 10, 2).nullable();
-    table.jsonb('attributes').defaultTo("{");
+    table.jsonb('attributes').defaultTo("{}");
     table.timestamps(true, true); // created_at и updated_at
   });
 };

@@ -1,0 +1,57 @@
+version: '3.9'
+networks:
+  auth-net:
+    driver: bridge
+services:
+  app:
+    networks:
+      - auth-net
+    build: .
+    restart: always
+    container_name: ss_backend
+    env_file:
+      - .env  
+    ports:
+      - "5000:5000"
+    environment:
+      - DB_HOST=db
+      - DB_PORT=${DB_PORT}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_DB=${DB_NAME}
+      - PORT=${PORT}
+    depends_on:
+      - db 
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/items"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  db:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_NAME}
+    networks:
+      - auth-net
+    container_name: ss_db_postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+#
+  test:
+    build: .
+    env_file:
+      - .env
+    networks:
+      - auth-net
+    depends_on:
+      - db
+    command: npm test
+#
+volumes:
+  postgres_data:

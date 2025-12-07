@@ -1,4 +1,4 @@
-import { ItemsModel } from "../models/item.mode";
+import { ItemsModel } from "../models/item.model.js";
 
 export const ItemsService = {
     getItems: async () => {

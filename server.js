@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-import itemRouter from "./src/routes/items.routes";
+import itemRouter from "./src/routes/items.routes.js";
 app.use("/api/items", itemRouter);
 
 app.listen(process.env.PORT, () => 
