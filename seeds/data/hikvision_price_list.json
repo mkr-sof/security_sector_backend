@@ -1,0 +1,177 @@
+{
+    "HD CAM": {
+        "HD720p Entry Level Series": [
+        {
+            "Model": "DS-2CE16C0T-IRP",
+            "Appearance": "",
+            "Horizontal Resolution": "HD720p",
+            "Features": "ICR + 20m IR Distance+ IP66",
+            "Descriptions": "HD720p,1MP CMOS Sensor, 24 pcs IR LEDs, 20m IR, Outdoor IR Bullet, ICR, 0.01 Lux/F1.2, 12 VDC, Smart IR, IP66, Wide operating temperature range (-40°~60°), 2.8/3.6/6mm Lens",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 7000,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 8000
+        },
+        {
+            "Model": "DS-2CE16C0T-IRPF",
+            "Appearance": "",
+            "Horizontal Resolution": "HD720p",
+            "Features": "ICR + 20m IR Distance+ IP67",
+            "Descriptions": "1MP CMOS Sensor, 24 pcs IR LEDs, 20m IR, Outdoor IR Bullet, ICR, 0.01 Lux/F1.2, 12 VDC, Smart IR, IP66, Wide operating temperature range (-40°~60°), 2.8/3.6/6mm Lens Support TVI/AHD/CVI/CVBS video signal output",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 7500,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 8500
+        },
+        {
+            "Model": "DS-2CE56C0T-IRP",
+            "Appearance": "",
+            "Horizontal Resolution": "HD720p",
+            "Features": "ICR + 20m IR Distance",
+            "Descriptions": "HD720p,1MP CMOS Sensor, 12 pcs IR LEDs, 20m IR, Indoor IR Eyeball, ICR, 0.01 Lux/F1.2, 12 VDC, Smart IR, Wide operating temperature range (-40°~60°), 2.8/3.6/6mm Lens",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 6500,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 7500
+        },
+        {
+            "Model": "DS-2CE56C0T-IRPF",
+            "Appearance": "",
+            "Horizontal Resolution": "HD720p",
+            "Features": "ICR + 20m IR Distance",
+            "Descriptions": "1MP CMOS Sensor, 24 pcs IR LEDs, 20m IR, Outdoor IR Bullet, ICR, 0.01 Lux/F1.2, 12 VDC, Smart IR, IP66, Wide operating temperature range (-40°~60°), 2.8/3.6/6mm Lens Support TVI/AHD/CVI/CVBS video signal output",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 6000,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 7000
+        }
+        ],
+        "HD1080p Entry Level Series": [
+        {
+            "Model": "DS-2CE16D0T-IRP",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "ICR + 20m IR Distance+ IP66",
+            "Descriptions": "HD1080p,2MP CMOS Sensor, 24 pcs LEDs, 20m IR, Outdoor IR Bullet, ICR, 0.1 Lux/F1.2, 12 VDC, Smart IR, DNR, IP66, 3.6/6mm Lens",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 9700,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 10500
+        },
+        {
+            "Model": "DS-2CE16D0T-ITPF",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "ICR + 20m IR Distance+ IP67",
+            "Descriptions": "HD1080p,2MP CMOS Sensor, 24 pcs LEDs, 20m IR, Outdoor IR Bullet, ICR, 0.1 Lux/F1.2, 12 VDC, Smart IR, DNR, IP66, 3.6/6mm Lens TVI/AHD/CVI/CVBS video signal output",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 10700,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 11500
+        },
+        {
+            "Model": "DS-2CE16D0T-ITF",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "25 m IR Distance+ IP67",
+            "Descriptions": "HD1080p,2MP CMOS Sensor, 24 pcs LEDs, 20m IR, Outdoor IR Bullet, ICR, 0.1 Lux/F1.2, 12 VDC, Smart IR, DNR, IP66, 3.6/6mm Lens TVI/AHD/CVI/CVBS video signal output",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 11000,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 12000
+        },
+        {
+            "Model": "DS-2CE16D0T-ITFS",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "30m IR Distance+ IP67 with microphone",
+            "Descriptions": "2MP CMOS Sensor, 1080P@25fps(P)(Default)/30fps(N), EXIR, 30m IR, Outdoor EXIR Bullet, ICR, 0.01 Lux/F1.2, 12 VDC, Smart IR, DNR, Built-in Mic,Audio up Coaxial(Only TVI),OSD Menu(Up the Coax), IP67,2.8/3.6/6mm Lens，Support TVI/AHD/CVI/CVBS video signal output",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 11800,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 12800
+        },
+        {
+            "Model": "DS-2CE16D0T-ITPFS",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "30m IR Distance+ IP67 with microphone",
+            "Descriptions": "2MP CMOS Sensor, 1080P@25fps(P)(Default)/30fps(N), EXIR, 30m IR, Outdoor EXIR Bullet, ICR, 0.01 Lux/F1.2, 12 VDC, Smart IR, DNR, Built-in Mic,Audio up Coaxial(Only TVI),OSD Menu(Up the Coax), IP67,2.8/3.6/6mm Lens，Support TVI/AHD/CVI/CVBS video signal output",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 11100,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 12000
+        },
+        {
+            "Model": "DS-2CE56D0T-IRP",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "ICR + 20m IR Distance+ IP66",
+            "Descriptions": "HD1080p,2MP CMOS Sensor, 24 pcs LEDs, 20m IR, Outdoor IR Eyeball, ICR, 0.1 Lux/F1.2, 12 VDC, Smart IR, DNR, IP66, 3.6/6mm Lens",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 8800,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 9500
+        },
+        {
+            "Model": "DS-2CE76D0T-ITPFS",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "ICR + 20m IR Distance with microphone",
+            "Descriptions": "2MP CMOS Sensor, 1080P@25fps(P)(Default)/30fps(N),EXIR, 20m IR, Outdoor EXIR Turret, ICR, 0.01 Lux/F1.2, 12 VDC, Smart IR, DNR, Built-in Mic,Audio up Coaxial(Only TVI),OSD Menu(Up the Coax), 2.8/3.6/6mm Lens，Support TVI/AHD/CVI/CVBS video signal output",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 10600,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 11500
+        },
+        {
+            "Model": "DS-2CE70D0T-ITMF",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "20m IR Distance+ IP67",
+            "Descriptions": "2MP CMOS Sensor, 1080P@25fps(P)(Default)/30fps(N), EXIR, 20m IR, Outdoor EXIR Turret, ICR, 0.01 Lux/F1.2, 12VDC, Smart IR, DNR, OSD Menu(Up the Coax), IP67,2.8/3.6/6mm Lens，Support TVI/AHD/CVI/CVBS video signal output，Mini Size,black housing",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 13400,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 14500
+        },
+        {
+            "Model": "DS-2CE17D0T-IT3",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "ICR + 40m IR Distance+ IP66",
+            "Descriptions": "HD1080p,2MP CMOS Sensor, 2 pcs EXIR LEDs, 40m IR, Outdoor EXIR Bullet, ICR, 0.1 Lux/F1.2, 12 VDC, Smart IR, DNR, IP66, 3.6/6/8/12/16mm Lens",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 13800,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 15000
+        },
+        {
+            "Model": "DS-2CE17D0T-IT5",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "ICR + 80m IR Distance+ IP67",
+            "Descriptions": "HD1080p,2MP CMOS Sensor, 4 pcs EXIR LEDs, 80m IR, Outdoor EXIR Bullet, ICR, 0.1 Lux/F1.2, 12 VDC, Smart IR, DNR, IP66, 3.6/6/8/12/16mm Lens",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 14800,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 16000
+        },
+        {
+            "Model": "DS-2CE19D0T-VFIT3F ",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "ICR + 40m IR Distance+ IP66",
+            "Descriptions": "2MP CMOS Sensor, 1080P@25fps(P)(Default)/30fps(N), EXIR, 70m IR, Auto Focus, Outdoor EXIR Bullet, ICR, 0,005 Lux/F1,2, 12VDC/24VDC, Smart IR, True WDR,3D DNR, OSD Menu(Up the Coax), IP67,2,7-13,5mm Motorized Vari-focal Lens，Support TVI/AHD/CVI/CVBS video signal output",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 20700,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 22500
+        },
+        {
+            "Model": "DS-2CE79D0T-VFIT3F",
+            "Appearance": "",
+            "Horizontal Resolution": "HD1080p",
+            "Features": "ICR + 40m IR Distance+ IP66",
+            "Descriptions": "HD1080p,2MP CMOS Sensor, 42 pcs IR LEDs, 40m IR, Outdoor IR Vari-focal Eyeball, ICR,  0.1 Lux/F1.2, 12 VDC, Smart IR, DNR, OSD Menu(Up the Coax), IP66, 2.8~12mm Lens",
+            "Դիլեր գին (Ներառյալ ԱԱՀ)": 20700,
+            "Վաճառքի գին (Ներառյալ ԱԱՀ)": 22500
+        }
+        ],
+        "5MP ColorVu Series,Turbo HD 5.0": [],
+        "1080P ColorVu Series,Turbo HD 5.0": [],
+        "ColorVu2.0 KF0T-S Series": [],
+        "HD1080p TRUE WDR Series": [],
+        "5MP EXIR Series": [],
+        "4K Eco Series": [],
+        "": []
+    },
+    "HD DVR": [],
+    "Easy IP 1.0": [],
+    "EZVIZ": [],
+    "Easy IP 3.0": [],
+    "NVR": [],
+    "HDD & Manitors": [],
+    "SWITCH": [],
+    "ANPR and Terminals": [],
+    "PTZ": [],
+    "Video Intercam": [],
+    "Access": [],
+    "Անցակետ": [],
+    "Parking": [],
+    "CABEL": [],
+    "POWER": [],
+    "SIR Phone": [],
+    "Brackets": []
+
+}
