@@ -5,5 +5,5 @@ export const ItemsModel = {
     getById: (id) => db("items").where({id}).first(),
     create: (data) => db("items").insert(data).returning("*"),
     update: (id, data) => db("items").where({id}).update(data).returning("*"),
-    delete: (id) => db("items".where({id})).del(),
+    delete: (id) => db("items").where({id}).del(),
 }

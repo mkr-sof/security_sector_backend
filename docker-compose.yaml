@@ -1,14 +1,17 @@
 version: '3.9'
 networks:
-  auth-net:
+  ss-net:
     driver: bridge
 services:
   app:
     networks:
-      - auth-net
+      - ss-net
     build: .
     restart: always
     container_name: ss_backend
+    volumes:
+      - ./:/app
+      - app_uploads:/app/uploads
     env_file:
       - .env  
     ports:
@@ -35,7 +38,7 @@ services:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - POSTGRES_DB=${DB_NAME}
     networks:
-      - auth-net
+      - ss-net
     container_name: ss_db_postgres
     restart: always
     ports:
@@ -48,10 +51,11 @@ services:
     env_file:
       - .env
     networks:
-      - auth-net
+      - ss-net
     depends_on:
       - db
     command: npm test
 #
 volumes:
   postgres_data:
+  app_uploads:
