@@ -1,18 +1,18 @@
 version: '3.9'
 networks:
-  auth-net:
+  app-network:
     driver: bridge
 services:
   app:
     networks:
-      - auth-net
+      - app-network
     build: .
     restart: always
     container_name: ss_backend
     env_file:
       - .env  
     ports:
-      - "5000:5000"
+      - "4000:4000"
     environment:
       - DB_HOST=db
       - DB_PORT=${DB_PORT}
@@ -35,23 +35,12 @@ services:
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - POSTGRES_DB=${DB_NAME}
     networks:
-      - auth-net
-    container_name: ss_db_postgres
+      - app-network
+    container_name: hikvision_db
     restart: always
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-#
-  test:
-    build: .
-    env_file:
-      - .env
-    networks:
-      - auth-net
-    depends_on:
-      - db
-    command: npm test
-#
 volumes:
   postgres_data:

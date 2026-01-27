@@ -59,4 +59,4 @@ export async function seed() {
     }
     console.log(`Seeded items table with ${rows.length} items.`);
 }
-seed().then(() => process.exit());
+// seed().then(() => process.exit());

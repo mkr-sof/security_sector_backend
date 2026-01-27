@@ -33,10 +33,25 @@ export const ItemsController = {
             res.status(500).json({ error: err.message });
         }
     },
+    uploadImages: async (req, res) => {
+        try {
+            const { id } = req.params;
+            if (!req.files || req.files.length === 0) {
+                return res.status(400).json({ error: "No files uploaded" });
+            }
+            const updatedItem = await ItemsService.uploadImages(id, req.files);
+            res.json({
+                success: true,
+                data: updatedItem
+            });
+        } catch (error) {
+            res.status(500).json({ error: error.message });
+        }
+    },
     deleteItem: async (req, res) => {
         try {
-            await ItemsService.deleteItem(req.param.id);
-            res.json({message: "Deleted"});
+            await ItemsService.deleteItem(req.params.id);
+            res.json({ message: "Deleted" });
         } catch (err) {
             res.status(500).json({ error: err.message });
         }
